@@ -48,6 +48,12 @@ importers:
       '@biomejs/biome':
         specifier: ^2.5.14
         version: 2.5.14
+      '@citizenfx/client':
+        specifier: 2.0.35805-1
+        version: 2.0.35805-1
+      '@citizenfx/server':
+        specifier: 2.0.35805-1
+        version: 2.0.35805-1
       '@rolldown/plugin-babel':
         specifier: ^0.2.3
         version: 0.2.4(@babel/core@7.29.7)(@babel/runtime@7.29.7)(rolldown@1.2.9)(vite@8.3.0(@types/node@24.13.5)(jiti@2.7.0))
@@ -294,6 +300,12 @@ packages:
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
+
+  '@citizenfx/client@2.0.35805-1':
+    resolution: {integrity: sha512-YV+o/liGLJ90KIBWqmvZH0rY13rz2l+mu84ssYz8zVcMwfswdOY3TTSmENsX+aR9kX9+4uH48sfWo09BzpGG4A==}
+
+  '@citizenfx/server@2.0.35805-1':
+    resolution: {integrity: sha512-Sj0LBQ+0t92NkMc48oSvwNitMNkg+sXm0V8NFzaujGY0v0G+Wm2nKTLL24jDSOZM2aKjW5A0y7sExrMdbtpSXg==}
 
   '@dotenvx/dotenvx@1.75.1':
     resolution: {integrity: sha512-/BITOC9dmS/edY2zQwZNicQ059O6RKabtQfyEafV0nGtfYRNHYy1DIPiYVcov40+tob9hfmBnbR963dS+EQ1DQ==}
@@ -2221,6 +2233,10 @@ snapshots:
 
   '@biomejs/cli-win32-x64@2.5.14':
     optional: true
+
+  '@citizenfx/client@2.0.35805-1': {}
+
+  '@citizenfx/server@2.0.35805-1': {}
 
   '@dotenvx/dotenvx@1.75.1':
     dependencies:

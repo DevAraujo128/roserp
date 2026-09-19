@@ -5,6 +5,12 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+	base: "./",
+	build: {
+		outDir: "dist/web",
+		emptyOutDir: true,
+	},
+
 	plugins: [
 		react(),
 		babel({ presets: [reactCompilerPreset()] }),
